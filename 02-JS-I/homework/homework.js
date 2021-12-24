@@ -38,13 +38,15 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
   var sumarNum = x + y ;
-return sumarNum
+  return sumarNum
   
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+  let restaNum = x - y;
+  return restaNum 
   
 }
 
