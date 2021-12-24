@@ -53,7 +53,8 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  let MultiplicaNumeros=x * y ;
+  return MultiplicaNumeros
 }
 
 function divide(x, y) {
