@@ -118,8 +118,13 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
+  if ( numero === Math.floor(numero)){
+      return true
+  }else{
+    return false
+  }
 }
-
+   
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
   // Si "numero" es divisible entre 5, devuelve "buzz"
@@ -148,6 +153,11 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
+  //if (valor === true ){
+  //  return 'Soy verdadero';
+ // }else{
+  //  return 'Soy falso';
+ // }
 
 }
 
@@ -155,13 +165,23 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  
+  //var tabla=[] ;
+ // for (let i = 0; i <=10 ; i++){
+  //  tabla[i] = i*6 ;
+ //   return tabla
+ // }
+
 }
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  
+ // var strNum= String(numero);
+  //if (strNum.length === 3){
+//return true
+ // }else{
+ //   return false
+ // }
 }
 
 function doWhile(numero) {
